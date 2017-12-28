@@ -458,7 +458,7 @@
 			var tmp = document.createElement('div');
 			tmp.style.width = tmp.style.height = '100%';
 			tmp.style.top = tmp.style.left = 0;
-			tmp.style.background = '#e24b1e';
+			tmp.style.background = '#414343';
 			tmp.style.position = 'absolute';
 			tmp.style.WebkitTransform = tmp.style.transform = 'scale3d(0,1,1)';
 			tmp.style.WebkitTransformOrigin = tmp.style.transformOrigin = '0% 50%';

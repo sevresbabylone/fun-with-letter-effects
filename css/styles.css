@@ -11,20 +11,18 @@ body {
 	color: #414343;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-image: url('../assets/5.jpg');
-  background-size: cover;
   height: 100vh;
   display: flex;
   justify-content: center;
   flex-direction: column;
 }
+
 h1 {
 	font-weight: 100;
 	font-family: 'Roboto Condensed', sans-serif;
 	font-size: 7vw;
 }
 h1 > span {
-	 font-family: 'Roboto Condensed', sans-serif;
 	font-size: 3.5vw;
 	color: #414343;
 }
@@ -43,27 +41,15 @@ h1 > span {
   margin-top: 0;
 }
 .display-link {
-	/* font-size: 2.5vw; */
   position: relative;
   display: -webkit-flex;
   display: -ms-flexbox;
   display: flex;
   -webkit-flex-wrap: wrap;
   flex-wrap: wrap;
-  /* -webkit-justify-content: center;
-  -ms-flex-pack: center;
-  justify-content: center;
-  -webkit-align-items: center;
-  -ms-flex-align: center;
-  align-items: center; */
-  /* width: 100vw;
-  height: 100vh; */
-  /* min-height: 50px; */
   margin: 0 auto;
 	margin-bottom: 5.5vw;
-
 	transition: .5s ease color;
-  /* padding: 7em 0; */
 }
 .display-link h2 {
 	font-size: 6.0vw;
@@ -83,14 +69,6 @@ h1 > span {
 	opacity: 0;
 }
 
-
-@media (min-width:600px) {
-	.display-link {
-		/* min-height: 80px; */
-	}
-}
-
-
 @media (min-width:900px) {
 	h1 {
 		font-size: 3.5rem;
@@ -98,28 +76,22 @@ h1 > span {
 	h1 > span {
 		font-size: 1.5rem;
 	}
-
+	.display-link {
+		margin-bottom: 30px;
+	}
 	.content {
 		width: 70%;
 		margin: 0 auto;
 	}
-	.display-link {
-		/* min-height: 80px; */
-	}
+
 	.display-link h2 {
 		font-size: 3.0rem;
 	}
 }
 
 @media (min-width:1200px) {
-
 	.content {
 		width: 60%;
-		margin: 0 auto;
-	}
-	.display-link {
-		min-height: 80px;
-		margin-bottom: 30px;
 	}
 	.display-link h2 {
 		font-size: 3.0rem;

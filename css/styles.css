@@ -1,0 +1,63 @@
+*,
+*::after,
+*::before {
+	-webkit-box-sizing: border-box;
+	box-sizing: border-box;
+}
+
+body {
+  font-family: 'Abril Fatface', sans-serif;
+  font-size: 2.5vw;
+  letter-spacing: 0.25rem;
+  color:#1500a2;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  /* background-image: url('../assets/5.jpg');
+  background-size: cover; */
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.content {
+
+}
+
+.display-link:first-of-type {
+  margin-top: 0;
+}
+.display-link {
+  margin-top: 5.5vh;
+  position: relative;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  /* -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center; */
+  /* width: 100vw;
+  height: 100vh; */
+  min-height: 80px;
+  width: 60%;
+  margin: 0 auto;
+  /* padding: 7em 0; */
+}
+.display-link:hover {
+  cursor: pointer;
+}
+.link--centered {
+  font-weight: 100;
+  margin: 0 auto;
+  justify-content: center;
+}
+
+ .slide:not(.slide--current) {
+	pointer-events: none;
+	opacity: 0;
+}

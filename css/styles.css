@@ -16,7 +16,15 @@ body {
   justify-content: center;
   flex-direction: column;
 }
-
+a {
+	text-decoration: none;
+	color: #414343;
+	transition: .5s ease color;
+}
+a:hover {
+  cursor: pointer;
+	color: #fff;
+}
 h1 {
 	font-weight: 100;
 	font-family: 'Roboto Condensed', sans-serif;
@@ -49,14 +57,9 @@ h1 > span {
   flex-wrap: wrap;
   margin: 0 auto;
 	margin-bottom: 5.5vw;
-	transition: .5s ease color;
 }
 .display-link h2 {
 	font-size: 6.0vw;
-}
-.display-link:hover {
-  cursor: pointer;
-	color: #fff;
 }
 .link--centered {
   font-weight: 100;
